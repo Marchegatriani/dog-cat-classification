@@ -9,11 +9,6 @@ Evaluasi dilakukan pada data uji (*test set*) yang tidak pernah digunakan selama
 | CNN dari nol | 76,27% | 76,4% | 76,3% | 76,2% | 480 dari 2.023 |
 | MobileNetV2 (Transfer Learning) | 98,57% | 98,6% | 98,6% | 98,6% | 29 dari 2.023 |
 
-| Model | Jumlah Parameter | Waktu Pelatihan (detik) |
-|---|---|---|
-| CNN dari nol | [isi dari output] | [isi dari output] |
-| MobileNetV2 (Transfer Learning) | [isi dari output] | [isi dari output] |
-
 Model transfer learning unggul dengan selisih akurasi sekitar 22,3 poin persentase. Jumlah gambar yang salah diprediksi turun dari 480 menjadi 29, atau berkurang sekitar 94%.
 
 ### 2. Analisis Confusion Matrix
